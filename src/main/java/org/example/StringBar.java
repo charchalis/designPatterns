@@ -33,4 +33,8 @@ public class StringBar extends Bar {
     public void setHappyHour(boolean happyHour) {
         this.happyHour = happyHour;
     }
+
+    public void order(StringDrink drink, StringRecipe recipe){
+        recipe.mix(drink);
+    }
 }
